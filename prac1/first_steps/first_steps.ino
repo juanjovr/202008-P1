@@ -22,19 +22,18 @@
  * 
  * El programa debe realizar los siguientes pasos:
  * 
- * - Configurar la puerta serie a 9600 baudios - Imprimir cada segundo el
- * siguiente mensaje:
- *   
- *   Serial output. Time XXX s
- *   
+ * - Configurar la puerta serie a 9600 baudios - Imprimir cada segundo el 
+ *   siguiente mensaje: 
+ *   - Serial output. Time XXX s
  *   donde XXX son los segundos transcurridos desde el arranque.
  * 
  * Para ello se proponen las siguientes funciones:
  * 
- * 
  * - void Serial.begin(speed)
  * 
- * Parámetros: - speed: velocidad de transmisión en baudios.
+ * Parámetros: 
+ * 
+ * - speed: velocidad de transmisión en baudios.
  * 
  * Selecciona la tasa de transmisión de datos en bits por segundo (baudios)
  * para la puerta serie. Los valores posibles para comunicarse con el PC son
@@ -45,12 +44,16 @@
  * 
  * - void Serial.print(val)
  * 
- * Parámetros: - val: valor a imprimir. Puede ser de cualquier tipo.
+ * Parámetros: 
+ * 
+ * - val: valor a imprimir. Puede ser de cualquier tipo.
  * 
  * Imprime el valor "val" por la puerta serie. Este valor puede ser una cadena
  * de caracteres o un valor numérico de tipo entero o en coma flotante.  Por
- * ejemplo: - Serial.print("Hola Mundo\n"); - Serial.print(1.2345); -
- * Serial.print(345);
+ * ejemplo: 
+ * - Serial.print("Hola Mundo\n"); 
+ * - Serial.print(1.2345); 
+ * - Serial.print(345);
  *  
  *  
  * - unsigned long millis()
@@ -62,12 +65,15 @@
  * 
  * - void delay(ms)
  * 
- * Parámetros: - ms: milisegundos de duración de la pausa.
+ * Parámetros: 
+ * 
+ * - ms: milisegundos de duración de la pausa.
  * 
  * Pausa la ejecución del sistema durante un número de milisegundos.
  * 
  * 
  */
+
 
 void setup() {
   
